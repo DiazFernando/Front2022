@@ -1,20 +1,37 @@
 body {
-    text-align: center;
-    background-color: beige;
+        background-color: beige;
 }
 h1 {
+    text-align: center;
     background-color: aqua;
     color: blue;
 }
+h2 {
+    background-color: #000000;
+    color: #999999;
+    text-shadow: 2px 2px #0000aa;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .parrafo_con_clase {
-    text-align: right;
-    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    background-color: #a52a00;
+    color: #99ff00;
+}
+div{
+    text-align: center;
 }
 img {
-    float:left;
     height: 300px;
     width: 300px;
 }
 #parrafo_con_id {
-    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #7fffaa;
+    color: #000000;
+    text-align: left;
+}
+ul {
+    list-style-type: circle;
 }
