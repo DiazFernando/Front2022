@@ -1,0 +1,45 @@
+body{
+    background-color: #000000;
+}
+div.boxStandar{
+    width: 100px;
+    border: solid 5px #ff0000;
+    margin: 5px;
+    background-color: #999999;
+}
+div.titulo{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+div.seccion1{
+    width: 48%;
+    display: inline-block;
+    text-align: justify;
+}
+div.seccion2{
+    width: 48%;
+    display: inline-block;
+}
+div.imagen{
+    width: 250px;
+    height: 250px;
+    border: solid 5px #000000;
+    display: inline-block
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+div.parrafo{
+    width: 250px;
+    text-align: left;
+    margin: auto;
+    display: inline-block;
+}
+div.pie-de-pagina{
+    width: 100%;
+}
+.subtitulo{
+    text-align: center;
+}
