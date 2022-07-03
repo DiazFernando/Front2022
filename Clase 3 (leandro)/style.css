@@ -13,21 +13,17 @@ div.titulo{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
 }
-div.seccion1{
+div.seccion{
     width: 48%;
-
     display: inline-block;
-    text-align: justify;
-}
-div.seccion2{
-    width: 48%;
-
-    display: inline-block;
+    text-align: center;
 }
 div.imagen{
+    float: left;
     width: 250px;
     height: 250px;
     border: solid 5px #000000;
+    border-radius: 10px;
     display: inline-block;
 }
 img{
