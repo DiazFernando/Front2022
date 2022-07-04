@@ -2,7 +2,6 @@ body{
     background-image: url(crumpled-white-paperboard.jpg);
 }
 div.boxStandar{
-    width: 100px;
     border: solid 5px #000000;
     border-radius: 5px;
     margin: 5px;
@@ -15,16 +14,16 @@ div.titulo{
 }
 div.seccion{
     width: 48%;
+    height: 100%;
     display: inline-block;
     text-align: center;
 }
 div.imagen{
-    float: left;
     width: 250px;
     height: 250px;
     border: solid 5px #000000;
     border-radius: 10px;
-    display: inline-block;
+    float: left;
 }
 img{
     width: 250px;
@@ -37,7 +36,14 @@ div.parrafo{
 }
 div.pie-de-pagina{
     width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
 }
 .subtitulo{
     text-align: center;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffff00;
 }
