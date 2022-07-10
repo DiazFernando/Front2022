@@ -1,3 +1,18 @@
+.logo{
+    height: 100px;
+}
 .borde{
-    border: solid 2px #000
+    border: 2px black solid;
+}
+.menues{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.articulo{
+    height: 250px;
+}
+.banner{
+    height: 250px;
 }
