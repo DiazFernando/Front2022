@@ -1,0 +1,71 @@
+body{
+    width: 412px;
+    height: 914px;
+    margin: 0%;
+}
+.borde{
+    border: 5px solid black;
+}
+.titulo{
+    background-color: #555;
+}
+.seccion-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.seccion-b{
+    height: 55%;
+}
+.seccion-a{
+    display: none;
+}
+.seccion-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+}
+.seccion-cd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20%;
+}
+.seccion-c{
+    width: 50%;
+    height: 100%;
+}
+.seccion-d{
+    width: 50%;
+    height: 100%;
+}
+.seccion-e{
+    height: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .seccion-1{
+        flex-direction: row;
+        height: 70%;
+    }
+    .seccion-a{
+        width: 30%;
+        height: 100%;
+        display: block;
+    }
+    .seccion-b{
+        width: 70%;
+        height: 100%;
+    }
+    .seccion-2{
+        flex-direction: row;
+        height: 30%;
+    }
+}
