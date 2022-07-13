@@ -97,3 +97,28 @@ body{
     margin: auto;
     background-color: #2aa;
 }
+@media only screen and (max-width: 600px) {
+    .art-column{
+        flex-direction: column;
+    }
+    .encabezado{
+        flex-direction: column;
+    }
+    .seccion-inferior{
+        flex-direction: column;
+    }
+    .pie-de-pagina{
+        flex-direction: column;
+    }
+    .menu1{
+        border-radius: 5px;
+        background-color: blue;
+    }
+    .menu2{
+        border-radius: 5px;
+        background-color: #f0f;
+    }
+    body{
+        background-color: #faf;
+    }
+}
