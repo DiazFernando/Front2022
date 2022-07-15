@@ -1,18 +1,9 @@
-.logo{
-    height: 100px;
-}
-.borde{
-    border: 2px black solid;
+body{
+    background-color: #2ee;
 }
 .menues{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-}
-.articulo{
-    height: 250px;
-}
-.banner{
-    height: 250px;
 }
