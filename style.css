@@ -1,29 +1,31 @@
 body{
+    margin: 0%;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
     width: 412px;
     height: 914px;
-    margin: 0%;
 }
 .borde{
     border: 5px solid black;
 }
 .titulo{
     background-color: #555;
+    height: auto;
 }
 .seccion-1{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
+    height: 55%;
 }
 .seccion-b{
-    height: 55%;
+    height: 100%;
 }
 .seccion-a{
     display: none;
 }
 .seccion-2{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 45%;
@@ -32,7 +34,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 20%;
+    height: 50%;
 }
 .seccion-c{
     width: 50%;
@@ -43,13 +45,14 @@ body{
     height: 100%;
 }
 .seccion-e{
-    height: 100%;
+    height: 50%;
 }
+
 
 @media only screen and (min-width: 600px) {
     body{
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
     .seccion-1{
         flex-direction: row;
@@ -58,7 +61,7 @@ body{
     .seccion-a{
         width: 30%;
         height: 100%;
-        display: block;
+        display: grid;
     }
     .seccion-b{
         width: 70%;
@@ -66,9 +69,24 @@ body{
     }
     .seccion-2{
         flex-direction: row;
+        width: 100%;
         height: 30%;
     }
     .seccion-c{
+        width: 50%;
+        height: auto;
+    }
+    .seccion-d{
+        width: 50%;
+        height: auto;
+    }
+    .seccion-e{
+        width: 33%;
+        height: auto;
+    }
+    .seccion-cd{
+        width: 66%;
         height: 100%;
     }
+    
 }
