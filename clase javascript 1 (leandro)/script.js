@@ -1,26 +1,21 @@
 let btn_nombreCompleto = document.getElementById("btn_nombreCompleto");
 btn_nombreCompleto.addEventListener("click",saludar,obtenerDatos);
-btn_nombreCompleto.addEventListener("click",obtenerDatos);
 
 let nombre = "anonimo";
 let apellido = "anonimo";
 let edad = 0;
 
 function saludar() {
-    let nombre = "anonimo";
-    let apellido = "anonimo";
     let inputNombre = document.getElementById("inputNombre");
     let inputApellido = document.getElementById("inputApellido");
     nombre = inputNombre.value;
     apellido = inputApellido.value;
 
     alert("Bienvenido " + nombre + " " + apellido);
+    obtenerDatos()
 }
 
 function obtenerDatos() {
-    let nombre = "anonimo";
-    let apellido = "anonimo";
-    let edad = 0;
     let inputNombre = document.getElementById("inputNombre");
     let inputApellido = document.getElementById("inputApellido");
     let inputEdad = document.getElementById("inputEdad");
