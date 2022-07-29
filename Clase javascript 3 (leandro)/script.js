@@ -8,4 +8,12 @@ function agregarTarea (){
    lista.appendChild(elemento); 
 }
 
+let divParrafo = document.getElementById("divParrafo");
+let boton2 = document.getElementById("agregarP");
+let input2 = document.getElementById("inputParrafo");
 
+function agregarTexto(){
+    let texto = document.createElement("p");
+    texto.innerHTML = inputParrafo.value;
+    divParrafo.appendChild(texto);
+}
