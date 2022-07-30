@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+
 <body>
-    <div>
-        <H2>Mi Lista</H2>
-        <ol id="lista">
-            <li>Punto uno</li>
-            <li>Punto dos</li>
-            <li>Punto tres</li>
-        </ol>
-    </div>
-    <input type="text" id="inputLista">
-    <button id="btn_agregar" onclick="agregarTarea()">Agregar Elemento</button>
-    
-    <div>
-        <h2>Mi Parrafo</h2>
-        <div id="divParrafo">
+    <div class="container">
+        <div class="row">
+            <h2>Mi Web</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="col-12">
+                    <H2>Mi Lista</H2>
+                    <ol id="lista">
+                        <li>Punto uno</li>
+                        <li>Punto dos</li>
+                        <li>Punto tres</li>
+                    </ol>
+                </div>
+                <input type="text" id="inputLista">
+                <button id="btn_agregar" onclick="agregarTarea()">Agregar Elemento</button>
+                <div>
+
+                </div class="col-12">
+                <h2>Mi Parrafo</h2>
+                <div id="divParrafo">
+
+                </div>
+                <input type="text" value="" id="inputParrafo">
+                <button id="agregarP" onclick="agregarTexto()">Agregar Parrafo</button>
+            </div>
+        </div>
+        <div>
 
         </div>
-        <input type="text" value="" id="inputParrafo">
-        <button id="agregarP" onclick="agregarTexto()" >Agregar Parrafo</button>
-    </div>
-    
-    <script src="script.js"></script>
+
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
