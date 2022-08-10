@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
 </head>
+
 <body>
     <ol>
         <li><a href="index0.html" title="Inicio">Inicio</a></li>
@@ -15,14 +17,23 @@
         <li><a href="index3.html" title="divs aleatorios">Divs aleatorios</a></li>
         <li><a href="index4.html" title="lista de tareas">Memo</a></li>
     </ol>
-    <H1>
-        7 de la suerte
-    </H1>
-
-    <div class="container"></div>
-
-    <button id="lanzar">Lanzar dados</button>
-
-    <script src="script.js"></script>
+    <div class="container">
+        <header>
+            <div id="titulo">
+                <h1>Memo</h1>
+            </div>
+        </header>
+        <section>
+            <div>
+                <ol class="lista"></ol>
+            </div>
+            <label for="tarea">Agregar Tarea</label>
+            <input type="text" name="tarea" id="inputLista" placeholder="Ingrese Tarea">
+            <button id="botonGuardar">Guardar tarea</button>
+            <button id="botonLimpiar">Limpiar lista</button>
+        </section>
+    </div>
+    <script src="script4.js"></script>
 </body>
+
 </html>

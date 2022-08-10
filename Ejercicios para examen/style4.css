@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 100%;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+}
+
+.input{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(178, 245, 178);
+}
+label{
+    font-style: italic;
+    font-weight: bolder;
+}
