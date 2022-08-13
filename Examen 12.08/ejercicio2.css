@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.centroPagina{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: green;
+}
+section{
+    background-color: blue;
+    color: white;
+}
+aside{
+    background-color: blueviolet;
+}
+footer{
+    background-color: red;
+}
+
+@media only screen and (min-width:600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        background-color: rgb(139, 255, 139);
+    }
+    .centroPagina{
+        display: flex;
+        flex-direction: row;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        background-color: rgb(111, 111, 247);
+    }
+    aside{
+        background-color: rgb(202, 158, 243);
+        width: 30%;
+    }
+    #textoAside{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: blueviolet;
+    }
+    footer{
+        background-color: rgb(255, 150, 150);
+    }
+    p span{
+        font-style: italic;
+        color: red;
+    }
+    
+}
