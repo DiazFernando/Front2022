@@ -19,6 +19,9 @@ function sumar(){
     let mostrar = document.createElement("p");
     mostrar.innerHTML = "la suma de " + primerNumero.value + " + " + segundoNumero.value + " = " + resultado;
     mostrarResultado.appendChild(mostrar);
+    primerNumero.value = " ";
+    segundoNumero.value = " ";
+
 }
 
 
@@ -27,6 +30,8 @@ function restar(){
     let mostrar = document.createElement("p");
     mostrar.innerHTML = "la resta de " + primerNumero.value + " - " + segundoNumero.value + " = " + resultado;
     mostrarResultado.appendChild(mostrar);
+    primerNumero.value = " ";
+    segundoNumero.value = " ";
 }
 
 titulo.classList.add("titulo");
