@@ -1,11 +1,51 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: #0303ff;
-    width: auto;
-    height: auto;
-}
 header{
-    flex-direction: row;
+    background-color: rgb(221, 17, 17) ;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
+    padding: 20px;
+    height: 15vh;
+}
+ 
+  #navbar .logo {
+    font-size: 2rem;
+    width: 40%;
+  }
+  
+  #navbar h1 a {
+    color: white;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+  
+  #navbar ul li a {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+  
+  #navbar ul li a:hover {
+    color: rgb(253, 207, 207);
+  }
+  
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{display: flex;
+    justify-content: flex-start;
+}
+.container{
+    background-image: url(carrito-super.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
