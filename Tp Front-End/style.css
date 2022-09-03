@@ -94,3 +94,7 @@ footer{
   height: 10vh;
   background-color: rgb(177, 12, 12);
 }
+footer p {
+  font-size: 1.5rem;
+  color: black
+}
