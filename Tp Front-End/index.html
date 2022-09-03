@@ -1,21 +1,3 @@
-<!-- Generar un Sitio Web para un Mercado que esté compuesto por 3 páginas.
-La página 1 con el home. Tiene que tener header, descripción y un footer (diseño libre)
-La página 2 es el sitio principal, donde el usuario va a ver la lista de productos (nombre y precio) del
-mercado, que se tienen que cargar desde javascript (es decir una lista fija de productos). Por cada
-elemento debe haber un input donde el usuario seleccione la cantidad de productos que va a comprar.
-Una vez que el usuario haga click en el botón “comprar”, se deben validar que la cantidad de productos
-ingresada por el usuario sea menor o igual a la cantidad de productos disponibles, el stock de cada
-producto también tiene que estar cargado previamente desde javascript(al igual que los productos).
-Si hay algún producto que no tenga stock suficiente, se debe mostrar un mensaje de error. Si todos los
-productos están disponibles en la cantidad seleccionada, se tiene que mostrar el total de la compra.
-Los precios por cada producto, al igual que los productos y el stock, tienen que estar cargados desde
-javascript.
-La página 3 tiene que tener los datos de contacto del mercado y un pequeño formulario de contacto.
-Opcional: pueden agregar todo aquello que consideren necesario para mejorar el sitio.
-Obligatorio: entregarlo a traves de github. Si no esta entregado a traves de github no esta aprobado.
-NOTA: Para la nota final no solo es importante que sea funcional, sino que también se valorarán las
-buenas prácticas explicadas a lo largo del cuatrimestre -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,29 +13,29 @@ buenas prácticas explicadas a lo largo del cuatrimestre -->
 <body>
     <header>
         <nav id="navbar">
-            <div class="logo">
+            
                 <img src="logo.jpg" alt="logo super flash">
-            </div>
-            <div class="titulo">
+            
+            
                 <h1><a href="index.html">Super Flash</a></h1>
-            </div>
-            <div>
+           
+            
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="actual">Home</a></li>
                     <li><a href="principal.html">Principal</a></li>
                     <li><a href="contacto.html">Contato</a></li>
                 </ul>
-            </div>
+            
     </header>
-    <div class="container">
     <section>
-        <h2>Bienvenidos al "Super Flash"</h2>
-        <p>Compra desde donde estes, nosotros armamos tu pedido y te lo llevamos hasta tu casa</p>
+            <div class="container">
+                <h2>Bienvenidos al "Super Flash"</h2>
+                <p>Compra desde donde estes, nosotros armamos tu pedido y te lo llevamos hasta tu casa</p>
+            </div>
     </section>
     <footer>
         <p>Compra rápido, facil y seguro desde nuestra web</p>
     </footer>
-    </div>
     <script src="script.js"></script>
 </body>
 

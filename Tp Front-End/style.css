@@ -1,51 +1,84 @@
-header{
-    background-color: rgb(221, 17, 17) ;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
-#navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    height: 15vh;
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
 }
- 
-  #navbar .logo {
-    font-size: 2rem;
-    width: 40%;
-  }
-  
-  #navbar h1 a {
-    color: white;
-  }
-  
-  #navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60%;
-  }
-  
-  #navbar ul li a {
-    text-align: center;
-    padding: 20px;
-    font-size: 1.2rem;
-  }
-  
-  #navbar ul li a:hover {
-    color: rgb(253, 207, 207);
-  }
-  
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+h1 {
+  font-size: 36px;
+  text-align: center;
 }
-.logo{display: flex;
-    justify-content: flex-start;
+h2 {
+  font-size: 32px;
 }
-.container{
-    background-image: url(carrito-super.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+p {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 217, 0);
+
+}
+
+/* NAVBAR */
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(177, 12, 12);
+}
+#navbar img{
+  border-radius: 50%;
+  height: 100%;
+}
+#navbar h1 a{
+  color: rgb(255, 255, 255);
+}
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+#navbar ul li a {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+#navbar ul li a:hover {
+  color: #dff884;
+}
+#navbar ul li a.actual {
+  color: rgb(255, 255, 255);
+  border: solid 2px #dff884;
+  border-radius: 5px;
+}
+ /* SECTION */
+ section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("carrito-super.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+/* HOME */
+.showcase {
+  text-align: center;
+  color: white;
 }
