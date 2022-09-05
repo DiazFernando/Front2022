@@ -13,21 +13,29 @@
 <body>
     <header>
         <nav id="navbar">
-            
-                <img src="logo.jpg" alt="logo super flash">
-            
-            
-                <h1><a href="index.html">Super Flash</a></h1>
-           
-            
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="principal.html">Principal</a></li>
-                    <li><a href="contacto.html" class="actual">Contato</a></li>
-                </ul>
-            
+            <img src="logo.jpg" alt="logo super flash">
+            <h1><a href="index.html">Super Flash</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="principal.html">Principal</a></li>
+                <li><a href="contacto.html" class="actual">Contacto</a></li>
+            </ul>
     </header>
-
+    <section id="contacto-container">
+        <h2>Contactenos</h2>
+        <form>
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label>Dejenos su mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          <button class="boton-primario">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Diseñado por Fernando Diaz</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
