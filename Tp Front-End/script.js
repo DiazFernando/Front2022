@@ -58,4 +58,3 @@ function comprar(){
 // window.addEventListener("load", cargarProductos);
 window.onload = cargarProductos();
 btnComprar.addEventListener("click", comprar);
-btnAgregar?.addEventListener("click", agregar);
