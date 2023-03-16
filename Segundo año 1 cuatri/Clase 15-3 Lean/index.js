@@ -15,10 +15,10 @@ let persona2 = persona;
 persona2.nombre = "Alicia";
 
 console.log(persona2.nombre);
-*/
 
 
-let data ={
+
+let data = {
     "empresa":"TDF",
     "empleados" : [
         {
@@ -38,3 +38,19 @@ let data ={
         }
     ]
 }
+*/
+
+
+let listaJs = document.getElementById("listaJs");
+
+let elemento1 = document.createElement("li");
+let elemento2 = document.createElement("li");
+let elemento3 = document.createElement("li");
+
+elemento1.innerHTML = "TEXTO 1";
+elemento2.innerHTML = "TEXTO 2";
+elemento3.innerHTML = "TEXTO 3";
+
+listaJs.appendChild(elemento1);
+listaJs.appendChild(elemento2);
+listaJs.appendChild(elemento3);
