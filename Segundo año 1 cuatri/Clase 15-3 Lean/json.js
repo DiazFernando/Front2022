@@ -36,25 +36,29 @@ console.log("----------");
 
 //Objeto Js a archivo JSON
 
-let personas = [{
-    nombre :"Sofia",
-    apellido : "Villalba",
-    edad : 29,
-    dni :1111111
-},
-{
-    nombre :"Bernardo",
-    apellido : "Fiori",
-    edad : 33,
-    dni :22222222
-},
-{
-    nombre :"Mariana",
-    apellido : "Orzusa",
-    edad : 50,
-    dni :3333333
-}];
+let newData ={ 
+    empleados:[
+        {
+            nombre :"Sofia",
+            apellido : "Villalba",
+            edad : 29,
+            dni :1111111
+        },
+        {
+            nombre :"Bernardo",
+            apellido : "Fiori",
+            edad : 33,
+            dni :22222222
+        },
+        {
+            nombre :"Mariana",
+            apellido : "Orzusa",
+            edad : 50,
+            dni :3333333
+        }
+    ]
+}
 
-let dataJSON = JSON.stringify(personas);
+let dataJSON = JSON.stringify(newData);
 
-console.log(dataJSON);
+console.log(dataJSON.empleados);
