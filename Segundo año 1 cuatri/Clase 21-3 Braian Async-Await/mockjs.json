@@ -1,0 +1,17 @@
+{
+    "status":"OK",
+    "empleados":[
+        {
+            "nombre":"Fernando",
+            "apellido":"Diaz"
+        },
+        {
+            "nombre":"Luis",
+            "apellido":"Zapata"
+        },
+        {
+            "nombre":"David",
+            "apellido":"Fernandez"
+        }
+    ]
+}
