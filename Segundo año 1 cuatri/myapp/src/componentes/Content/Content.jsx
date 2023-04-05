@@ -1,9 +1,11 @@
+import { Contador } from '../Contador/Contador';
 import './Content.css';
+
 
 export const Content = () => {
     return (
     <div className="content"> 
-    <h2>Content</h2>
+    <Contador/>
     </div>
     )
 }
