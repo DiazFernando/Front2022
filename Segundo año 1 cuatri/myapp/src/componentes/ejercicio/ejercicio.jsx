@@ -16,10 +16,10 @@ import React, {
           if (count===0){
              setMessage("Has click en el boton para comenzar a contar");
              } else {
-              setMessage("El contador está en:" `${count}`)
+              setMessage("El contador está en: " + count)
              } 
                      
-      },)
+      })
     
   
   

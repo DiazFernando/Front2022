@@ -18,7 +18,7 @@ function PesoADolar(){
             onChange={(e)=>setPeso(e.target.valeu)}
             style={{width:'12rem'}}
             />
-            <h4>{peso ? `${peso} pesos equivalen a ${convertirADolar(peso)} dólares` : 'Ingrese los pesos a convertir'</h4>
+            <h4>{peso ? `${peso} pesos equivalen a ${convertirADolar(peso)} dólares` : 'Ingrese los pesos a convertir'}</h4>
         </div>
     )
 }
