@@ -23,6 +23,7 @@
     justify-content: end;
     justify-items:end;
     margin: 5px;
+    border-radius: 30px;
 }
 
 .buttonEnviar{
