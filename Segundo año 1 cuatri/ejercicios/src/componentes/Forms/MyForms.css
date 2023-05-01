@@ -26,11 +26,13 @@
     border-radius: 30px;
 }
 
-.buttonEnviar{
+.content textarea{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: end;
+    justify-items:end;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .glass{
