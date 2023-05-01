@@ -28,6 +28,7 @@ const MyForm = () => {
     return(
         <>
          <div className="content">
+            <div className="glass">
             <form onSubmit={handleSubmit}>
                 <div>
                 <label>Nombre:  
@@ -63,7 +64,8 @@ const MyForm = () => {
                 <button type="submit">Enviar</button>
                 </div>
                 
-            </form>  
+            </form> 
+            </div> 
             <div>
                 {personas.map((persona)=> <Card key={persona.nombre} nombre={persona.nombre} apellido={persona.apellido} dni={persona.dni} ciudad={persona.ciudad} comentario={persona.comentario}/>)}
             </div>
